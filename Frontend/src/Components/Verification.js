@@ -3,9 +3,9 @@ import { Alert, Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getDepartementData } from "./ApiServices";
-const chartericon = new URL("../Allimages/charterverifyicon.png", import.meta.url)
-const domesticicons = new URL("../Allimages/domestic.png", import.meta.url)
-const tenantpgicons = new URL("../Allimages/tenantpgicons.png", import.meta.url)
+const chartericon = new URL("../Images/charterverifyicon.png", import.meta.url)
+const domesticicons = new URL("../Images/domestic.png", import.meta.url)
+const tenantpgicons = new URL("../Images/tenantpgicons.png", import.meta.url)
 
 export function Verification() {
     // const [arrestedpersonData,setarrestedpersonData]=useState([]);

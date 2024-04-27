@@ -2,13 +2,13 @@
 import { Card, CardActionArea, CardContent, CardMedia, Paper, Typography } from "@mui/material";
 import {  Container } from "react-bootstrap";
 import Slider from "react-slick";
-const policecarousal = new URL('../Allimages/policecarousal.jpeg', import.meta.url)
-const policecarousal2 = new URL('../Allimages/policecarousal2.jpeg', import.meta.url)
-const policecarousal3 = new URL('../Allimages/policecarousal3.jpeg', import.meta.url)
-const policecarousal4 = new URL('../Allimages/policecarousal4.jpeg', import.meta.url)
-const policecarousal5 = new URL('../Allimages/policecarousal5.jpeg', import.meta.url)
-const policecarousal6 = new URL('../Allimages/policecarousal6.jpeg', import.meta.url)
-// const bgimg = new URL('../Allimages/dotpattern.png',import.meta.url)
+const policecarousal = new URL('../Images/policecarousal.jpeg', import.meta.url)
+const policecarousal2 = new URL('../Images/policecarousal2.jpeg', import.meta.url)
+const policecarousal3 = new URL('../Images/policecarousal3.jpeg', import.meta.url)
+const policecarousal4 = new URL('../Images/policecarousal4.jpeg', import.meta.url)
+const policecarousal5 = new URL('../Images/policecarousal5.jpeg', import.meta.url)
+const policecarousal6 = new URL('../Images/policecarousal6.jpeg', import.meta.url)
+// const bgimg = new URL('../Images/dotpattern.png',import.meta.url)
 export function SuccessStory() {
     const settings = {
         className: "center",

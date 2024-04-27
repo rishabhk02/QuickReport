@@ -1,6 +1,6 @@
 import { StatusCodes } from "http-status-codes";
-import { addres, characterverify, pgverifyschema, witnes } from "../Models/CharacterVerify.js";
-import { policeStation } from "../Models/DepartmentSchema.js";
+import { addres, characterverify, pgverifyschema, witnes } from "../Schema/CharacterVerify.js";
+import { policeStation } from "../Schema/DepartmentSchema.js";
 
 
 export async function saveCharacterVerify(req, res) {
@@ -18,7 +18,6 @@ export async function saveCharacterVerify(req, res) {
 
     }
 }
-
 export async function updateCharacterToPoliceS(req, res) {
     try {
         await policeStation.findByIdAndUpdate(req.params.id, { $push: { characterverify: req.params.obj } });
@@ -59,7 +58,6 @@ export async function updateAddressToCharcterVerify(req, res) {
 
     }
 }
-
 export async function saveWitnesData(req, res) {
     try {
         // const image = `http://localhost:5800/${req.file.filename}`;

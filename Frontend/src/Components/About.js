@@ -1,5 +1,5 @@
 import { Alert, Container } from "react-bootstrap";
-export default function About()
+export function About()
 {
     return(
         <>

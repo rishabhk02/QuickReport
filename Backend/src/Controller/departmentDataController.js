@@ -1,5 +1,5 @@
 import { StatusCodes } from "http-status-codes";
-import { Department, News, Officers, actSchema, district,  notices, policeStation } from "../Models/DepartmentSchema.js";
+import { Department, News, Officers, actSchema, district,  notices, policeStation } from "../Schema/DepartmentSchema.js";
 
 export async function saveDepartData(req, res) {
     try {

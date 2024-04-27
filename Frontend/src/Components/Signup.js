@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { signup } from "./ApiServices";
 // import {Toast} from "primereact/toast"
-const mppolice = new URL("../Allimages/mppolice.png", import.meta.url)
+const mppolice = new URL("../Images/mppolice.png", import.meta.url);
 export function Signup() {
   const [formData,setformData]=useState({});
   const navigate = useNavigate();

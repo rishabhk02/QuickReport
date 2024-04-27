@@ -7,14 +7,14 @@ import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutl
 import SkipNextIcon from '@mui/icons-material/SkipNext';
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
-const policecarousal = new URL('../Allimages/p1.jpg', import.meta.url)
-const policecarousal1 = new URL('../Allimages/p1.jpg', import.meta.url)
-const policecarousal2 = new URL('../Allimages/policecarousal2.jpeg', import.meta.url)
-const policecarousal3 = new URL('../Allimages/eventimg3.jpg', import.meta.url)
-const policecarousal4 = new URL('../Allimages/policecarousal4.jpeg', import.meta.url)
-const policecarousal5 = new URL('../Allimages/policecarousal5.jpeg', import.meta.url)
-const policecarousal6 = new URL('../Allimages/policecarousal6.jpeg', import.meta.url)
-const mpdgp = new URL('../Allimages/m.jpg', import.meta.url)
+const policecarousal = new URL('../Images/p1.jpg', import.meta.url)
+const policecarousal1 = new URL('../Images/p1.jpg', import.meta.url)
+const policecarousal2 = new URL('../Images/policecarousal2.jpeg', import.meta.url)
+const policecarousal3 = new URL('../Images/eventimg3.jpg', import.meta.url)
+const policecarousal4 = new URL('../Images/policecarousal4.jpeg', import.meta.url)
+const policecarousal5 = new URL('../Images/policecarousal5.jpeg', import.meta.url)
+const policecarousal6 = new URL('../Images/policecarousal6.jpeg', import.meta.url)
+const mpdgp = new URL('../Images/m.jpg', import.meta.url)
 export function Home() {
    const [index, setIndex] = useState(0);
    const navigate = useNavigate();

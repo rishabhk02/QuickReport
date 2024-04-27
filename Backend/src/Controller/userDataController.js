@@ -1,10 +1,10 @@
 import bcrypt from "bcrypt";
-import { user } from "../Models/userSchema.js";
+import { user } from "../Schema/userSchema.js";
 import { StatusCodes } from "http-status-codes";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 import twilio from "twilio";
-import { policeStation } from "../Models/DepartmentSchema.js";
+import { policeStation } from "../Schema/DepartmentSchema.js";
 dotenv.config();
 export async function saveUserData(req, res) {
     try {

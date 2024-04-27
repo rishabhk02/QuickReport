@@ -4,9 +4,9 @@ import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutl
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getDepartementData } from "./ApiServices";
-const arrestedPersons = new URL("../Allimages/arrestedicons.jpg", import.meta.url)
-const firicons = new URL("../Allimages/firicons.jpg", import.meta.url)
-const rightsicon = new URL("../Allimages/rightsicon.jpg", import.meta.url)
+const arrestedPersons = new URL("../Images/arrestedicons.jpg", import.meta.url)
+const firicons = new URL("../Images/firicons.jpg", import.meta.url)
+const rightsicon = new URL("../Images/rightsicon.jpg", import.meta.url)
 
 export function CitizenInformation() {
     const [arrestedpersonData,setarrestedpersonData]=useState([]);

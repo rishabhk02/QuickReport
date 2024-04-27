@@ -1,6 +1,6 @@
 import { StatusCodes } from "http-status-codes"
-import { generalThefts, kidnappingReport, vehiclecomplaint } from "../Models/CasesSchema.js";
-import { user } from "../Models/userSchema.js";
+import { generalThefts, kidnappingReport, vehiclecomplaint } from "../Schema/CasesSchema.js";
+import { user } from "../Schema/userSchema.js";
 
 
 // export async function saveComplaints(req,res)

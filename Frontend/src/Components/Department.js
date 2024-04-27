@@ -11,12 +11,12 @@ import SkipNextIcon from '@mui/icons-material/SkipNext';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { getDepartementData } from "./ApiServices";
 import {  useNavigate } from "react-router-dom";
-const eventimg = new URL("../Allimages/eventimg1.jpg", import.meta.url)
-const eventimg2 = new URL("../Allimages/eventimg2.png", import.meta.url)
-const eventimg3 = new URL("../Allimages/eventimg3.jpg", import.meta.url)
-const eventimg4 = new URL("../Allimages/eventimg4.jpg", import.meta.url)
-const eventimg5 = new URL("../Allimages/eventimg5.png", import.meta.url)
-const ias = new URL("../Allimages/iasindore.jpg", import.meta.url)
+const eventimg = new URL("../Images/eventimg1.jpg", import.meta.url)
+const eventimg2 = new URL("../Images/eventimg2.png", import.meta.url)
+const eventimg3 = new URL("../Images/eventimg3.jpg", import.meta.url)
+const eventimg4 = new URL("../Images/eventimg4.jpg", import.meta.url)
+const eventimg5 = new URL("../Images/eventimg5.png", import.meta.url)
+const ias = new URL("../Images/iasindore.jpg", import.meta.url)
 export function Department() {
   const [index, setIndex] = useState(0);
   const [data, setData] = useState([]);

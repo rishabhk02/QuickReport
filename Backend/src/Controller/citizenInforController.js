@@ -1,6 +1,6 @@
 import { StatusCodes } from "http-status-codes";
-import { arrestedpersons } from "../Models/CitizenSchemas.js";
-import { Department } from "../Models/DepartmentSchema.js";
+import { arrestedpersons } from "../Schema/CitizenSchemas.js";
+import { Department } from "../Schema/DepartmentSchema.js";
 
 export async function saveArrestedPersonData(req,res)
 {
