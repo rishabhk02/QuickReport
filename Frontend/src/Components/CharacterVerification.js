@@ -1,6 +1,6 @@
 import { Alert, Col, Container, Row } from "react-bootstrap";
 import { useSelector } from "react-redux";
-import { Login } from "./Login";
+import { Login } from "./Auth/Login";
 import { Button, Paper, TextField } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
