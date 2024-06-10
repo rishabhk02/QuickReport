@@ -1,15 +1,15 @@
-# QuickReport (E-FIR and Information App)
+# QuickReport (E-FIR and Information App) 📝 
 
-## Overview
+## Overview  🖥️
 QuickReport is an innovative application designed to digitize and streamline the process of filing First Information Reports (FIRs). This app allows users to register FIRs online, track enquiry statuses, verify tenants and neighbors, and access crucial information about their local police stations and officers. It aims to eliminate the need for physical visits to police stations, reduce corruption, and enhance transparency and efficiency in law enforcement processes.
 
-## Problem Identified
+## Problem Identified ❓
 - Physical visits to police stations are required to register FIRs.
 - Lack of updates on the status of enquiries.
 - High levels of corruption involved in the process.
 - Difficulty in verifying tenants and neighbors.
 
-## Solution
+## Solution ✔️
 QuickReport addresses these issues by providing the following features:
 - **Online FIR registration.**
 - **Enquiry status tracking.**
@@ -18,7 +18,7 @@ QuickReport addresses these issues by providing the following features:
 - **Information about area officers, including contact details and geographical data.**
 - **Details on the number of police stations, officers, and helpline numbers in the district.**
 
-## Features
+## Features ✅
 - **Register FIR Online:** Users can file FIRs without visiting a police station.
 - **Track Enquiry Status:** Users can monitor the progress of their FIRs and enquiries.
 - **Verification Services:** Verify the credibility of tenants and neighbors.
@@ -26,9 +26,9 @@ QuickReport addresses these issues by providing the following features:
 - **Local Police Information:** Access details of area officers, police stations, contact numbers, and helpline numbers.
 - **Geographical Information:** Learn about the geographical layout and data of districts.
 
-## Installation
+## Installation ⬇️
 
-### Frontend
+### Frontend 👩🏻‍💻
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/rishabhk02/QuickReport.git
@@ -41,7 +41,7 @@ QuickReport addresses these issues by providing the following features:
 4. **Start Frontend Server:**
    ```sh
    npm start
-### Backend
+### Backend 🌐
 1. **Navigate to the backend folder:**
    ```sh
    cd quickreport/backend
